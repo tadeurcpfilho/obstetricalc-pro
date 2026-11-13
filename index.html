@@ -4,13 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Configuração PWA Android / Chrome -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Configuração PWA iOS (iPhone / iPad) -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ObstetriCalc" />
+    
     <title>ObstetriCalc Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-slate-50">
+  <body class="bg-slate-50 select-none">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Ativação automática do Aplicativo Instalável -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
