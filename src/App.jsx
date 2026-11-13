@@ -439,8 +439,8 @@ export default function App() {
               <Stethoscope className="w-6 h-6 text-sky-400" />
             </div>
             <div>
-              <h1 className="text-lg font-bold tracking-tight">ObstetriCalc Pro</h1>
-              <p className="text-xs text-slate-400">Datação ACOG/FEBRASGO • US • Rotina Pré-Natal</p>
+              <h1 className="text-lg font-bold tracking-tight">Calculadora Obstétrica</h1>
+              <p className="text-xs text-slate-400">Datação ACOG/FEBRASGO • US • Rotina Pré-Natal • por Tadeu Rodriguez Carval 13011/CE</p>
             </div>
           </div>
           <button
