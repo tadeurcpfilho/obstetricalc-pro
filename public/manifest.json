@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "ObstetriCalc Pro - Calculadora Obstétrica",
+  "short_name": "ObstetriCalc",
+  "description": "Cálculo de Idade Gestacional, Redatação ACOG/FEBRASGO, Cronograma de US e Exames de Pré-Natal.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%230f172a'/><circle cx='256' cy='256' r='160' fill='none' stroke='%2338bdf8' stroke-width='28'/><path d='M256 160v96l64 48' fill='none' stroke='%23f43f5e' stroke-width='28' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
